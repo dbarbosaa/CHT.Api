@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\CHT.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{721A7021-3BC2-4B5A-9548-4CA521F79706}|Chat.WebApi\\Chat.WebApi.csproj|c:\\projetos\\cht.api\\chat.webapi\\respositorio\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721A7021-3BC2-4B5A-9548-4CA521F79706}|Chat.WebApi\\Chat.WebApi.csproj|solutionrelative:chat.webapi\\respositorio\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repositorio.cs",
+              "DocumentMoniker": "C:\\Projetos\\CHT.Api\\Chat.WebApi\\Respositorio\\Repositorio.cs",
+              "RelativeDocumentMoniker": "Chat.WebApi\\Respositorio\\Repositorio.cs",
+              "ToolTip": "C:\\Projetos\\CHT.Api\\Chat.WebApi\\Respositorio\\Repositorio.cs",
+              "RelativeToolTip": "Chat.WebApi\\Respositorio\\Repositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T18:12:12.891Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

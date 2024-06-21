@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Pessoa.WebApi.Controllers.PessoaController",
+    "Method": "LoginPorEmail",
+    "RelativePath": "api/Pessoa/LoginPorEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pessoa.WebApi.Controllers.PessoaController",
+    "Method": "SalvarPessoa",
+    "RelativePath": "api/Pessoa/SalvarPessoa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoa",
+        "Type": "Chat.WebApi.Objetos.PessoaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

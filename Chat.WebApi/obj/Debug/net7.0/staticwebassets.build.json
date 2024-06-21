@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BIM663IaSTgFtDyyPU2t7+Lt4EtHkcEETb4pFqAJusM=",
+  "Source": "Chat.WebApi",
+  "BasePath": "_content/Chat.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
