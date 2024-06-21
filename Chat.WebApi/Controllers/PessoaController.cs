@@ -2,19 +2,29 @@ using Microsoft.AspNetCore.Mvc;
 using Chat.WebApi.Repositorio;
 using Chat.WebApi.Objetos;
 
+/// Controlador de pessoa;
 namespace Pessoa.WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
     public class PessoaController : ControllerBase
     {
+        /// <summary>
+        /// Declarar repositório;
+        /// </summary>
         private readonly Repositorio _repositorio;
 
+        /// <summary>
+        /// Construtor para inicializar a class repositório;
+        /// </summary>
         public PessoaController()
         {
             _repositorio = new Repositorio();
         }
 
+        /// <summary>
+        /// Função post para receber os dados de pessoa;
+        /// </summary>
         [HttpPost]
         [Route("SalvarPessoa")]
         public IActionResult SalvarPessoa([FromBody] PessoaDto pessoa)
@@ -35,6 +45,11 @@ namespace Pessoa.WebApi.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+
+
+        /// <summary>
+        /// Função get para buscar pessoa por email;
+        /// </summary>
 
         [HttpGet("LoginPorEmail")]
         public IActionResult LoginPorEmail([FromQuery] string email)

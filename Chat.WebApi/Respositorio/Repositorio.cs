@@ -3,15 +3,22 @@ using System.Data.SqlClient;
 
 namespace Chat.WebApi.Repositorio
 {
+    /// <summary>
+    /// Classe repositório para conecxão com a base de dados;
+    /// </summary>
     public class Repositorio
     {
         private string connectionString;
-
+        /// <summary>
+        /// Construtor para inicializar a conexão com banco;
+        /// </summary>
         public Repositorio()
         {
             this.connectionString = "Server=DELLZAO\\SQLEXPRESS;Database=CHATBOT;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True";
         }
-
+        /// <summary>
+        ///  Função de salvar pessoa;
+        /// </summary>
         public void SalvarPessoa(string nome, int idade, string email, string sexo)
         {
             using (var connection = new SqlConnection(connectionString))
@@ -39,7 +46,9 @@ namespace Chat.WebApi.Repositorio
                 }
             }
         }
-
+        /// <summary>
+        /// Buscar pessoa por email para logar;
+        /// </summary>
         public PessoaDto BuscarPessoaPorEmail(string email)
         {
             using (var connection = new SqlConnection(connectionString))
